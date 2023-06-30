@@ -86,7 +86,11 @@ html{
     background-color: #ff0000;
     color: #ffffff;
 }
-
+.hamburger{
+    position: absolute;
+    display: block;
+    color: red;
+}
 /* carousel 1 end */
 
 /* header start */
@@ -237,7 +241,190 @@ header .nav .navlinks ul a:hover{
     margin-left: 10%;
     text-align: center;
 }
-.gallery-hov1{
+.cardes1 .gallery-hov1{
+    position: absolute;
+    height: 763px;
+    width: 357px;
+    top: 145.5rem;
+    display: none;
+    
+}
+.gallery-hov1 h3{
+    position: relative;
+    top: 70px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov1 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 290px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes1:hover .gallery-hov1{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.721));
+    
+}
+.gallery-hov2{
+    position: absolute;
+    height: 383px;
+    width: 357px;
+    top: 145.5rem;
+    display: none;
+}
+.gallery-hov2 h3{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov2 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 190px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes2:hover .gallery-hov2{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.714));
+
+}
+.gallery-hov3{
+    position: absolute;
+    height: 620px;
+    width: 357px;
+    top: 145.5rem;
+    display: none;
+}
+.gallery-hov3 h3{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov3 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 190px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes3:hover .gallery-hov3{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.714));
+
+}
+.gallery-hov4{
+    position: absolute;
+    height: 242px;
+    width: 357px;
+    top: 194rem;
+    display: none;
+}
+.gallery-hov4 h3{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov4 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes4:hover .gallery-hov4{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.714));
+
+}
+.gallery-hov5{
+    position: absolute;
+    height: 620px;
+    width: 357px;
+    top: 170.2rem;
+    display: none;
+}
+.gallery-hov5 h3{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov5 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 190px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes5:hover .gallery-hov5{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.714));
+
+}
+.gallery-hov6{
+    position: absolute;
+    height: 385px;
+    width: 357px;
+    top: 185.1rem;
+    display: none;
+}
+.gallery-hov6 h3{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: #ffff;
+    
+}
+.gallery-hov6 i{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+.cardes6:hover .gallery-hov6{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.714));
+
+}
+
+
+/* .gallery-hov1{
     position: absolute;
     top: 150rem;
     margin-left: 10%;
@@ -337,7 +524,7 @@ header .nav .navlinks ul a:hover{
     background-color: white;
     border-radius: 50%;
     padding-top: 18px;
-}
+} */
 /* gallery end */
 
 /* contact start */
