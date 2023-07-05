@@ -87,9 +87,7 @@
         background-color: #ff0000;
         color: #ffffff;
     }
-    .hamburger{
-        display: block;
-    }
+    
     /* header start */
     header{
         height: 80px;
@@ -121,16 +119,20 @@
     .navlinks{
         display: none;
     }
-    .hamburger{
-        display: block;
-        cursor: pointer;
+    ul.slide{
+        left: 0;
+        transition: 2s;
     }
-    .hamburger .line{
-        width: 30px;
-        height: 4px;
-        background: rgb(5, 238, 55);
-        z-index: 1000;
-        
+    .menu{
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 200px;
+        background-color: rgb(78, 238, 15);
+    }
+    .menu i{
+        color: white;
+        font-size: 20px;
     }
     /* header end */
     

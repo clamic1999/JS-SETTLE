@@ -23,9 +23,9 @@
         
         <div class="con1">
             <div data-aos="fade-right" data-aos-duration="1000"><h1>Love</h1></div>
-            <div data-aos="fade-right" data-aos-duration="5000"><h1>Wedding Couple</h1></div>
-            <div data-aos="fade-right" data-aos-duration="10000"><h1>Groom Woman</h1></div>
-                <div data-aos="fade-right" data-aos-duration="15000"><button class="btn1">Contact Us</button></div>
+            <div data-aos="fade-right" data-aos-duration="1000"><h1>Wedding Couple</h1></div>
+            <div data-aos="fade-right" data-aos-duration="1000"><h1>Groom Woman</h1></div>
+                <div data-aos="fade-right" data-aos-duration="1000"><button class="btn1">Contact Us</button></div>
         </div>
 
         <div class="arrow">
@@ -51,10 +51,8 @@
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#Login">Login</a></li>
                 </ul>
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                <div class="menu">
+                    <i class="fas fa-solid fa-bars fa-beat-fade fa-2x" style="color: #ecf1f8;"></i>
                 </div>
             </div>
         </div>
@@ -295,12 +293,13 @@
 
 
 <script>
+const menu = document.querySelector('.menu i');
+const menuList = document.querySelector('ul');
+menu.addEventListener('click',()=>{
+    menu.classList.toggle('fa-xmark');
+    menuList.classList.toggle('slide');
+})
 
-hamburger=document.querySelector(".hamburger");
-         hamburger.onclick=function(){
-         navBar=document.querySelector(".nav");
-         navBar.classList.toggle("active");
-         }
     
 //name
 let a = document.getElementById("ainput");
