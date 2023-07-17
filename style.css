@@ -100,7 +100,7 @@ header{
     z-index: 2;
 }
 
-header .nav .navlinks ul{
+/* header .nav .navlinks ul{
     display: flex;
     position: relative;
     top: 30px;
@@ -118,7 +118,24 @@ header .nav .navlinks .active a{
 }
 header .nav .navlinks ul a:hover{
     color: #e5b311;
+} */
+.header-content ul{
+    display: flex;
+    margin-top: 20px;
 }
+.header-content li a{
+    margin-left: 60px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.header-content .active a{
+    color: #e5b311;
+}
+.header-content a:hover{
+    color: #e5b311;
+}
+
 .menu{
     display: none;
 }
