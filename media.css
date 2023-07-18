@@ -6,35 +6,35 @@
     body{
         overflow-x: hidden;
     }
-    .slide{
+    .slide1{
         background-size: cover;
         min-height: 1px;
     }
-    .slide .img1{
+    .slide1 .img1{
         position: relative;
         height: 30px;
         width: 70px;
         top: 10px;
         left: 20px;
     }
-    .slide .img1 img{
+    .slide1 .img1 img{
         height: 100%;
         width: 100%;
     }
     
-    .slide .con1{
+    .slide1 .con1{
         position: relative;
         top: 20px;
         left: 5%;
     }
     
-    .slide .con1 h1{
+    .slide1 .con1 h1{
         font-size: 20px;
         color: #ffffff;
         font-weight: bolder;
     }
     
-    .slide .con1 .btn1{
+    .slide1 .con1 .btn1{
         padding: 1px 2px;
         margin-left: 2%;
         border: none;
@@ -44,16 +44,14 @@
         margin-top: 5px;
     }
     
-    .slide .con1 .btn1:hover{
+    .slide1 .con1 .btn1:hover{
         background-color: #ff0000;
         color: white;
         transition: 1s;
     }
     
-    .slide .arrow .btn-left i{
-        position: relative;
-        top: 2px;
-        left: 250px;
+    .slide1 .arrow .btn-left i{
+        margin-left: 240px;
         height: 25px;
         width: 25px;
         padding: 3px;
@@ -64,15 +62,13 @@
         color: black;
     }
     
-    .slide .arrow .btn-left i:hover{
+    .slide1 .arrow .btn-left i:hover{
         background-color: #ff0000;
         color: #ffffff;
     }
     
-    .slide .arrow .btn-right i{
-        position: relative;
-        top: 2px;
-        left: 240px;
+    .slide1 .arrow .btn-right i{
+        margin-left: 230px;
         height: 25px;
         width: 25px;
         padding: 3px;
@@ -83,7 +79,7 @@
         color: black;
     }
     
-    .slide .arrow .btn-right i:hover{
+    .slide1 .arrow .btn-right i:hover{
         background-color: #ff0000;
         color: #ffffff;
     }
@@ -120,8 +116,8 @@
         display: none;
     } */
     .header-content ul{
-        position: absolute;
-        left: -120%;
+        position: relative;
+        top: -160%;
         width: 100%;
         display: block;
         text-align: center;
@@ -142,7 +138,7 @@
         color: white;
     }
     ul.slide{
-        left: 0;
+        top: 0;
         transition: 2s;
     }
     .menu{
@@ -180,7 +176,7 @@
     .title1{
         position: relative;
         left: 30%;
-        top: -40rem;
+        top: 50rem;
         width: 33%;
         height: 60px;
         color: white;
@@ -189,19 +185,17 @@
         background-color: #021626;
     }
     .about1-img{
-        position: relative;
-        top: -38rem;
-        left: 5%;
-        height: 100%;
-        width: 90%;
+        position: absolute;
+        height: 35%;
+        width: 70%;
     }
     .about1-img img{
-        height: 100%;
-        width: 90%;
+        height: 80%;
+        width: 70%;
     }
     .about1-p{
         position: relative;
-        top: -48%;
+        top: 50%;
         width: 80%;
         left: 10%;
         font-size: 10px;
@@ -214,7 +208,7 @@
         font-weight: bolder;
         border-radius: 5px;
         position: relative;
-        top: -46%;
+        top: 50%;
         margin-left: 38%;
         background-color: black;
         color: white;
@@ -266,9 +260,9 @@
     }
     .cardes1 .gallery-hov1{
         position: absolute;
-        height: 790px;
+        height: 795px;
         width: 370px;
-        top: 114.8rem;
+        top: 117rem;
         left: 27px;
         display: none;
     }
@@ -277,9 +271,9 @@
     }
     .gallery-hov2{
         position: absolute;
-        height: 390px;
+        height: 398px;
         width: 370px;
-        top: 165.5rem;
+        top: 167.5rem;
         left: 27px;
         display: none;
     }
@@ -288,9 +282,9 @@
     }
     .gallery-hov3{
         position: absolute;
-        height: 643px;
+        height: 643.5px;
         width: 370px;
-        top: 190.8rem;
+        top: 193.2rem;
         left: 27px;
         display: none;
     }
@@ -301,7 +295,7 @@
         position: absolute;
         height: 250px;
         width: 370px;
-        top: 231.9rem;
+        top: 234.5rem;
         left: 27px;
         display: none;
     }
@@ -313,7 +307,7 @@
         position: absolute;
         height: 643px;
         width: 370px;
-        top: 248.5rem;
+        top: 251rem;
         left: 27px;
         display: none;
     }
@@ -325,7 +319,7 @@
         position: absolute;
         height: 395px;
         width: 370px;
-        top: 289.5rem;
+        top: 292rem;
         left: 27px;
         display: none;
     }
