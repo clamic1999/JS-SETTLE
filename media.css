@@ -84,6 +84,32 @@
         color: #ffffff;
     }
     
+
+    .carousel-wrapper .btn {
+        font-size: 1rem;
+        background: white;
+        color: black;
+        
+        border-radius: 50%;
+        border: none;
+        margin: 10px;
+        position: absolute;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .carousel-wrapper .btn:hover {
+        background: red;
+        color: white;
+      }
+
+      .btn.previous {
+        top: 70%;
+        left: 40%;
+      }
+      .btn.next {
+        top: 70%;
+        right: 35%;
+      }
     /* header start */
     header{
         height: 80px;
@@ -262,7 +288,7 @@
         position: absolute;
         height: 795px;
         width: 370px;
-        top: 117rem;
+        top: 118.8rem;
         left: 27px;
         display: none;
     }
@@ -273,7 +299,7 @@
         position: absolute;
         height: 398px;
         width: 370px;
-        top: 167.5rem;
+        top: 169rem;
         left: 27px;
         display: none;
     }
@@ -284,7 +310,7 @@
         position: absolute;
         height: 643.5px;
         width: 370px;
-        top: 193.2rem;
+        top: 194.8rem;
         left: 27px;
         display: none;
     }
@@ -295,7 +321,7 @@
         position: absolute;
         height: 250px;
         width: 370px;
-        top: 234.5rem;
+        top: 236rem;
         left: 27px;
         display: none;
     }
@@ -307,7 +333,7 @@
         position: absolute;
         height: 643px;
         width: 370px;
-        top: 251rem;
+        top: 252.5rem;
         left: 27px;
         display: none;
     }
@@ -319,7 +345,7 @@
         position: absolute;
         height: 395px;
         width: 370px;
-        top: 292rem;
+        top: 293.5rem;
         left: 27px;
         display: none;
     }
@@ -354,4 +380,59 @@
     }
     /* footer end */
     
+    }
+
+    @media (max-width: 500px){
+        
+        .cardes1 .gallery-hov1{
+            position: absolute;
+            height: 795px;
+            width: 370px;
+            top: 123.8rem;
+            left: 27px;
+            display: none;
+        }
+
+        .gallery-hov2{
+            position: absolute;
+            height: 398px;
+            width: 370px;
+            top: 174rem;
+            left: 27px;
+            display: none;
+        }
+
+        .gallery-hov3{
+            position: absolute;
+            height: 643.5px;
+            width: 370px;
+            top: 200rem;
+            left: 27px;
+            display: none;
+        }
+        .gallery-hov4{
+            position: absolute;
+            height: 250px;
+            width: 370px;
+            top: 241rem;
+            left: 27px;
+            display: none;
+        }
+        .gallery-hov5{
+            position: absolute;
+            height: 643px;
+            width: 370px;
+            top: 257.5rem;
+            left: 27px;
+            display: none;
+        }
+
+        .gallery-hov6{
+            position: absolute;
+            height: 395px;
+            width: 370px;
+            top: 298.5rem;
+            left: 27px;
+            display: none;
+        }
     }

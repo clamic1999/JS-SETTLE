@@ -26,6 +26,60 @@ html{
     left: 50px;
 }
 
+.carousel-wrapper {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    margin: 0 2rem;
+    position: relative;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    transition: transform 300ms ease-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+  
+  .carousel-wrapper .btn {
+    font-size: 1.5rem;
+    background: white;
+    color: black;
+    padding: 0px 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 10px;
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .carousel-wrapper .btn:hover {
+    background: red;
+    color: white;
+  }
+  
+  .btn.previous {
+    top: 65%;
+    left: 83%;
+  }
+  .btn.next {
+    top: 80%;
+    right: 15%;
+  }
+
+  
 .slide1 .con1{
     position: relative;
     top: 90px;
