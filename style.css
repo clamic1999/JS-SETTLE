@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Lugrasimo', cursive;
 }
 body{
     overflow-x: hidden;
 }
 html{
     scroll-padding-top: 80px;
+}
+
+:root{
+    --h1-font-size: 25px;
+    --navlinks-font-size: 20px;
+    --p-font-size: 15px;
+    --navlinks-bg-color: black;
+    --btn-bg-clr: red;
+    --btn-clr: black;
+    --btn-padding: 10px 15px;
+
 }
 
 /* carousel 1 start */
@@ -176,7 +190,7 @@ header .nav .navlinks ul a:hover{
 }
 .header-content li a{
     
-    margin-left: 110px;
+    margin-left: 100px;
     font-size: 20px;
     color: white;
     text-decoration: none;
